@@ -13,9 +13,9 @@
 
 3.项目有很多，并未全部上传，如果未找到想要的，可直接咨询。
 
-# 【D6077】融合物联网技术的个性化营养外卖系统
 
-> 健康数据驱动的个性化点餐 · AI 营养建议（DeepSeek） · MQTT 物联网餐厨监测 · Echarts 数据可视化
+
+> 亮点：健康数据驱动的个性化点餐 · AI 营养建议（DeepSeek） · MQTT 物联网餐厨监测 · Echarts 数据可视化
 
 ## 项目简介
 
@@ -82,29 +82,49 @@
 
 ### 用户端
 
-![首页](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767706119-e67478b7-0ade-4675-ba79-163c0c31e00d.png)
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767706119-e67478b7-0ade-4675-ba79-163c0c31e00d.png" width="78%" alt="首页"></p>
 
-![美食](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767705522-66fa4c6e-7d87-42a1-9ab7-0300aedae38b.png)
+**图 1 · 首页**：健康数据驱动的个性化推荐入口，结合健康档案与历史行为推送更匹配的菜品。
 
-![健康档案](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767706129-0e3db5e8-071f-4384-b40c-062fe0cad6e3.png)
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767705522-66fa4c6e-7d87-42a1-9ab7-0300aedae38b.png" width="78%" alt="美食"></p>
 
-![营养统计](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767708056-89612746-52a4-43d7-ba86-ab6d63acadf9.png)
+**图 2 · 美食**：菜品浏览页，营养相关信息在选餐时可见。
 
-![咨询（AI 营养建议）](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767707958-1fe32dd0-df4a-4e8c-a161-63a2ab2def47.png)
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767706129-0e3db5e8-071f-4384-b40c-062fe0cad6e3.png" width="78%" alt="健康档案"></p>
+
+**图 3 · 健康档案**：维护身体基础信息与健康目标，是个性化推荐的「数据源」。
+
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767708056-89612746-52a4-43d7-ba86-ab6d63acadf9.png" width="78%" alt="营养统计"></p>
+
+**图 4 · 营养统计**：Echarts 可视化呈现用户营养摄入情况。
+
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767707958-1fe32dd0-df4a-4e8c-a161-63a2ab2def47.png" width="78%" alt="咨询（AI 营养建议）"></p>
+
+**图 5 · 咨询**：AI 营养建议对话，DeepSeek 出建议，异常时规则化降级兜底。
 
 ### 商家端
 
-![数据分析](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767713964-f3c52fb3-f9d2-4d2c-a0c1-e2bafa1707b8.png)
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767713964-f3c52fb3-f9d2-4d2c-a0c1-e2bafa1707b8.png" width="78%" alt="数据分析"></p>
 
-![数据统计](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767716529-0aa6e591-dcb4-4f70-827b-b61a9a98f39f.png)
+**图 6 · 数据分析**：订单经营数据的 Echarts 图表化分析。
 
-![设备管理（MQTT 餐厨监测）](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767716667-793364da-94f7-4b75-bf06-2eafa3dd67c0.png)
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767716529-0aa6e591-dcb4-4f70-827b-b61a9a98f39f.png" width="78%" alt="数据统计"></p>
+
+**图 7 · 数据统计**：销售 / 订单统计视图，与数据分析互补。
+
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767716667-793364da-94f7-4b75-bf06-2eafa3dd67c0.png" width="78%" alt="设备管理（MQTT 餐厨监测）"></p>
+
+**图 8 · 设备管理**：MQTT 接入的餐厨环境监测设备，实时查看温湿度、空气质量、光照、噪声与在线状态。
 
 ### 管理员端
 
-![餐厅管理](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767718628-624d72ed-59a3-4f63-a6f8-352e5f290907.png)
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767718628-624d72ed-59a3-4f63-a6f8-352e5f290907.png" width="78%" alt="餐厅管理"></p>
 
-![营养摄入总览](https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767718804-ee981a55-fa4e-4425-8bc7-263add301a18.png)
+**图 9 · 餐厅管理**：平台侧统一维护餐厅与菜品。
+
+<p align="center"><img src="https://cdn.nlark.com/yuque/0/2026/png/45326128/1788767718804-ee981a55-fa4e-4425-8bc7-263add301a18.png" width="78%" alt="营养摄入总览"></p>
+
+**图 10 · 营养摄入总览**：平台级营养摄入数据总览，与用户端、商家端数据打通。
 
 ## 说明
 
